@@ -27,5 +27,3 @@ Yüksek Kontrast: Arayüz, az gören kullanıcılar için yüksek kontrastlı (S
 
 3. Hata Senaryoları
 Hatalı Dosya: Kullanıcı grafik olmayan bir görsel yüklerse; AI bunu tespit eder ve "Hata: Bu bir teknik grafik değil. Lütfen bir STEM görseli yükleyin." uyarısı verir.
-
-Bağlantı Sorunu: API bağlantısı koparsa; "Sunucuya ulaşılamıyor, lütfen internet bağlantınızı kontrol edin." uyarısı sesli olarak okunur.
