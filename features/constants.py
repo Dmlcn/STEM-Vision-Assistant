@@ -6,7 +6,7 @@ APP_DESCRIPTION = (
     "Özet edge-tts ile seslendirilir. API anahtarı (.env) gerekir."
 )
 
-DEFAULT_GEMINI_MODEL = "gemini-1.5-flash-latest"
+DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 GEMINI_REQUEST_TIMEOUT_SEC = 90.0
 
 ALLOWED_IMAGE_TYPES = ("image/jpeg", "image/png", "image/webp")
