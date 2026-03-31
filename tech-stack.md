@@ -8,7 +8,7 @@ JavaScript (ES6+): Tarayıcı tarafında düşük seviyeli klavye kısayolları 
 
 
 2. Yapay Zeka ve Model Katmanı
-Gemini 1.5 Flash (Google AI Studio): * Neden: Yüksek hız (low latency) ve güçlü görsel analiz (computer vision) yetenekleri.
+Gemini 2.5 Flash (Google AI Studio): * Neden: Yüksek hız (low latency) ve güçlü görsel analiz (computer vision) yetenekleri.
 
 Kullanım: Teknik grafiklerin (STEM) analizi, eksen tespiti ve akademik yorumlama süreçlerini yönetir.
 
@@ -28,12 +28,12 @@ Streamlit Components (v1): JavaScript kodlarının Streamlit içerisine "enjekte
 
 Hashlib (MD5): Yüklenen görsellerin parmak izini alarak gereksiz API isteklerini önler ve sistem verimliliğini artırır.
 
-Asyncio: Ses sentezleme işleminin kullanıcı arayüzünü kilitlemeden asenkron şekilde yürütülmesini sağlar.
+Asyncio: Ses sentezleme işleminin kullanıcı arayüzünü kilitlemeden asenkron şekilde yürütülmesini sağlar.Ses sentezleme işleminin kullanıcı arayüzünü (UI) kilitlemeden arka planda yürütülmesi, özellikle görme engelli kullanıcıların ekran okuyucu akışının bozulmamasını sağlar.
 
 5. Kurulum ve Gereksinimler
 Projeyi yerel ortamda çalıştırmak için gerekli kütüphaneler aşağıdaki komut ile yüklenebilir:
 
-pip install streamlit google-generativeai edge-tts Pillow python-dotenv
+pip install -r requirements.txt
 
 
 
